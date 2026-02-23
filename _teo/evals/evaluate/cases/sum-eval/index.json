@@ -1,0 +1,5 @@
+{
+	"description": "evaluate('2(A) + 3(A)') → [5(A)]",
+	"input": { "text": "2(A) + 3(A)" },
+	"expected_output": [{ "id": "A", "q": 5, "open": true, "inner": [] }]
+}

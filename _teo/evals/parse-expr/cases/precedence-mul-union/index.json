@@ -1,0 +1,13 @@
+{
+	"description": "parseExpr('2(A) * 3(B) ∪ 4(B)') → * binds tighter than ∪",
+	"input": { "text": "2(A) * 3(B) ∪ 4(B)" },
+	"expected_output": {
+		"type": "op", "op": "∪",
+		"left": {
+			"type": "op", "op": "*",
+			"left": { "type": "state", "value": { "id": "A", "q": 2, "open": true, "inner": [] } },
+			"right": { "type": "state", "value": { "id": "B", "q": 3, "open": true, "inner": [] } }
+		},
+		"right": { "type": "state", "value": { "id": "B", "q": 4, "open": true, "inner": [] } }
+	}
+}

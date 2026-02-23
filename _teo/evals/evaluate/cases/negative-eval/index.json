@@ -1,0 +1,5 @@
+{
+	"description": "evaluate('-2(A) ∪ 3(A)') → [1(A)]",
+	"input": { "text": "-2(A) ∪ 3(A)" },
+	"expected_output": [{ "id": "A", "q": 1, "open": true, "inner": [] }]
+}

@@ -1,0 +1,5 @@
+{
+	"description": "parseExpr('A') → single state AST node",
+	"input": { "text": "A" },
+	"expected_output": { "type": "state", "value": { "id": "A", "q": 1, "open": false, "inner": [] } }
+}

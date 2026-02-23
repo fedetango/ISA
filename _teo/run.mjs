@@ -19,8 +19,10 @@ const rutines = [
 	'contains',
 	'subset',
 	'parse',
+	'parse-expr',
 	'stringify',
-	'roundtrip'
+	'roundtrip',
+	'evaluate'
 ]
 
 let totalPassed = 0

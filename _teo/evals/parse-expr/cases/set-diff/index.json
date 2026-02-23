@@ -1,0 +1,24 @@
+{
+	"description": "parseExpr('{ A, B } -- { B }') → difference with composites",
+	"input": { "text": "{ A, B } -- { B }" },
+	"expected_output": {
+		"type": "op", "op": "--",
+		"left": {
+			"type": "state", "value": {
+				"id": null, "q": 1, "open": false,
+				"inner": [
+					{ "id": "A", "q": 1, "open": false, "inner": [] },
+					{ "id": "B", "q": 1, "open": false, "inner": [] }
+				]
+			}
+		},
+		"right": {
+			"type": "state", "value": {
+				"id": null, "q": 1, "open": false,
+				"inner": [
+					{ "id": "B", "q": 1, "open": false, "inner": [] }
+				]
+			}
+		}
+	}
+}

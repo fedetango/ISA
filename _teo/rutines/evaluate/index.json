@@ -1,0 +1,14 @@
+{
+	"title": "Evaluate — expression string to State[]",
+	"eval": "evaluate",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "sum-eval" },
+		{ "caseKey": "union-eval" },
+		{ "caseKey": "intersect-eval" },
+		{ "caseKey": "difference-eval" },
+		{ "caseKey": "precedence-eval" },
+		{ "caseKey": "negative-eval" },
+		{ "caseKey": "chained-eval" }
+	]
+}

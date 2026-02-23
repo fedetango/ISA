@@ -1,0 +1,14 @@
+{
+	"title": "Parse Expr — text to AST nodes",
+	"eval": "parse-expr",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "single-state" },
+		{ "caseKey": "binary-sum" },
+		{ "caseKey": "precedence-mul-union" },
+		{ "caseKey": "grouping" },
+		{ "caseKey": "negative-in-expr" },
+		{ "caseKey": "chained" },
+		{ "caseKey": "set-diff" }
+	]
+}

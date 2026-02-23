@@ -1,0 +1,13 @@
+{
+	"description": "parseExpr('A ∪ B ∪ C') → left-associative",
+	"input": { "text": "A ∪ B ∪ C" },
+	"expected_output": {
+		"type": "op", "op": "∪",
+		"left": {
+			"type": "op", "op": "∪",
+			"left": { "type": "state", "value": { "id": "A", "q": 1, "open": false, "inner": [] } },
+			"right": { "type": "state", "value": { "id": "B", "q": 1, "open": false, "inner": [] } }
+		},
+		"right": { "type": "state", "value": { "id": "C", "q": 1, "open": false, "inner": [] } }
+	}
+}

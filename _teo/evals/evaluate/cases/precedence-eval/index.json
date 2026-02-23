@@ -1,0 +1,10 @@
+{
+	"description": "evaluate('2(A) * 3(B) ∪ 4(B)') → multiply first, then union with 4(B)",
+	"input": { "text": "2(A) * 3(B) ∪ 4(B)" },
+	"expected_output": [
+		{ "id": "A", "q": 2, "open": true, "inner": [
+			{ "id": "B", "q": 6, "open": true, "inner": [] }
+		]},
+		{ "id": "B", "q": 4, "open": true, "inner": [] }
+	]
+}

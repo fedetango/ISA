@@ -1,0 +1,9 @@
+{
+	"description": "parseExpr('-2(A) ∪ 3(A)') → negative Q as open state + union",
+	"input": { "text": "-2(A) ∪ 3(A)" },
+	"expected_output": {
+		"type": "op", "op": "∪",
+		"left": { "type": "state", "value": { "id": "A", "q": -2, "open": true, "inner": [] } },
+		"right": { "type": "state", "value": { "id": "A", "q": 3, "open": true, "inner": [] } }
+	}
+}

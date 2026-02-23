@@ -1,0 +1,8 @@
+{
+	"description": "evaluate('{ A, B, C } ∩ { B, C, D }') → [B, C]",
+	"input": { "text": "{ A, B, C } ∩ { B, C, D }" },
+	"expected_output": [
+		{ "id": "B", "q": 1, "open": false, "inner": [] },
+		{ "id": "C", "q": 1, "open": false, "inner": [] }
+	]
+}
