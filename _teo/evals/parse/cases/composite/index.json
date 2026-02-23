@@ -1,0 +1,8 @@
+{
+	"description": "parse('{ A, B }') → Composite (id=null)",
+	"input": { "text": "{ A, B }" },
+	"expected_output": { "id": null, "q": 1, "open": false, "inner": [
+		{ "id": "A", "q": 1, "open": false, "inner": [] },
+		{ "id": "B", "q": 1, "open": false, "inner": [] }
+	]}
+}

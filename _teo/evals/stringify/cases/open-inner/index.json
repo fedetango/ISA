@@ -1,0 +1,5 @@
+{
+	"description": "stringify(St('A', 3, [St('B'), St('C', 2)])) → '3(A){ B, 2(C) }'",
+	"input": { "state": { "id": "A", "q": 3, "inner": [{ "id": "B" }, { "id": "C", "q": 2 }] } },
+	"expected_output": "3(A){ B, 2(C) }"
+}

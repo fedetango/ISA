@@ -1,0 +1,8 @@
+{
+	"description": "parse('A{ B, C }') → Absolute with inner",
+	"input": { "text": "A{ B, C }" },
+	"expected_output": { "id": "A", "q": 1, "open": false, "inner": [
+		{ "id": "B", "q": 1, "open": false, "inner": [] },
+		{ "id": "C", "q": 1, "open": false, "inner": [] }
+	]}
+}

@@ -1,0 +1,10 @@
+{
+	"description": "parse(stringify(St('A', 3, [St('B')]))) → St('A', 3, [St('B')])",
+	"input": {
+		"mode": "stringify-parse",
+		"state": { "id": "A", "q": 3, "inner": [{ "id": "B" }] }
+	},
+	"expected_output": { "id": "A", "q": 3, "open": true, "inner": [
+		{ "id": "B", "q": 1, "open": false, "inner": [] }
+	]}
+}

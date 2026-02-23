@@ -1,0 +1,15 @@
+{
+	"title": "Stringify — St objects to text",
+	"eval": "stringify",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "absolute" },
+		{ "caseKey": "open" },
+		{ "caseKey": "negative" },
+		{ "caseKey": "absolute-inner" },
+		{ "caseKey": "open-inner" },
+		{ "caseKey": "composite" },
+		{ "caseKey": "quantified-composite" },
+		{ "caseKey": "empty" }
+	]
+}

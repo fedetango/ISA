@@ -1,0 +1,5 @@
+{
+	"description": "parse('-2(A)') → Negative quantifier",
+	"input": { "text": "-2(A)" },
+	"expected_output": { "id": "A", "q": -2, "open": true, "inner": [] }
+}

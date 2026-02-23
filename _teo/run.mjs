@@ -17,7 +17,10 @@ const rutines = [
 	'multiply',
 	'division',
 	'contains',
-	'subset'
+	'subset',
+	'parse',
+	'stringify',
+	'roundtrip'
 ]
 
 let totalPassed = 0

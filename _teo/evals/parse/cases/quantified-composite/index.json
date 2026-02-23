@@ -1,0 +1,8 @@
+{
+	"description": "parse('2({A, B})') → Quantified composite",
+	"input": { "text": "2({A, B})" },
+	"expected_output": { "id": null, "q": 2, "open": true, "inner": [
+		{ "id": "A", "q": 1, "open": false, "inner": [] },
+		{ "id": "B", "q": 1, "open": false, "inner": [] }
+	]}
+}

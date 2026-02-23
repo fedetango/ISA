@@ -1,0 +1,5 @@
+{
+	"description": "parse('{}') → Empty composite",
+	"input": { "text": "{}" },
+	"expected_output": { "id": null, "q": 1, "open": false, "inner": [] }
+}

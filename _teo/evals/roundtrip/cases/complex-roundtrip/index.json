@@ -1,0 +1,5 @@
+{
+	"description": "stringify(parse('2({A, B}){ C }')) → '2({A, B}){ C }'",
+	"input": { "mode": "parse-stringify", "text": "A{ B, 3({D, F}) }" },
+	"expected_output": "A{ B, 3({D, F}) }"
+}

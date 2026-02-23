@@ -1,0 +1,8 @@
+{
+	"description": "parse('3(A){ B, 2(C) }') → Open with mixed inner",
+	"input": { "text": "3(A){ B, 2(C) }" },
+	"expected_output": { "id": "A", "q": 3, "open": true, "inner": [
+		{ "id": "B", "q": 1, "open": false, "inner": [] },
+		{ "id": "C", "q": 2, "open": true, "inner": [] }
+	]}
+}

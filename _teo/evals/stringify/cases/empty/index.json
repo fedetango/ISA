@@ -1,0 +1,5 @@
+{
+	"description": "stringify(St(null, [])) → '{}'",
+	"input": { "state": { "id": null } },
+	"expected_output": "{}"
+}

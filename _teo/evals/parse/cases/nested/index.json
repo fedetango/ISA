@@ -1,0 +1,11 @@
+{
+	"description": "parse('A{ B, 3({D, F}) }') → Nested quantified composite inner",
+	"input": { "text": "A{ B, 3({D, F}) }" },
+	"expected_output": { "id": "A", "q": 1, "open": false, "inner": [
+		{ "id": "B", "q": 1, "open": false, "inner": [] },
+		{ "id": null, "q": 3, "open": true, "inner": [
+			{ "id": "D", "q": 1, "open": false, "inner": [] },
+			{ "id": "F", "q": 1, "open": false, "inner": [] }
+		]}
+	]}
+}

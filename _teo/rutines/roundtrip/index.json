@@ -1,0 +1,10 @@
+{
+	"title": "Roundtrip — parse∘stringify identity",
+	"eval": "roundtrip",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "text-roundtrip" },
+		{ "caseKey": "state-roundtrip" },
+		{ "caseKey": "complex-roundtrip" }
+	]
+}

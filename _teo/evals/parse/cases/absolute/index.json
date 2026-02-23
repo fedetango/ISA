@@ -1,0 +1,5 @@
+{
+	"description": "parse('A') → Absolute state",
+	"input": { "text": "A" },
+	"expected_output": { "id": "A", "q": 1, "open": false, "inner": [] }
+}

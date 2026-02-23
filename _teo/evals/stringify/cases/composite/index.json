@@ -1,0 +1,5 @@
+{
+	"description": "stringify(St(null, [St('A'), St('B')])) → '{ A, B }'",
+	"input": { "state": { "id": null, "inner": [{ "id": "A" }, { "id": "B" }] } },
+	"expected_output": "{ A, B }"
+}

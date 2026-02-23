@@ -1,0 +1,5 @@
+{
+	"description": "stringify(St('A')) → 'A'",
+	"input": { "state": { "id": "A" } },
+	"expected_output": "A"
+}
