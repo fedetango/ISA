@@ -7,6 +7,17 @@ Write `1(A)` and you have one *instance* — two instances add up: `{1(A), 1(A)}
 
 The Quantifier `Q()` is the only gate between these two modes. Everything else — operations, collapse rules, conservation laws — derives from this single distinction.
 
+## Discretional Quantification
+
+In ISA, there are no standalone numbers. Every number is a Quantifier — it counts instances of a specific State. `2` alone means nothing; `2(Male)` does. The same data yields different counts depending on the criterion:
+
+```
+Male{Juan{Arg}, Pedro{Chile}} + Female{Lucía{Arg}}
+→ 2(Male), 1(Female), 2(Arg), 1(Chile)
+```
+
+All counts derive algebraically from the same expression via perspective reorganization (T4, T5). No filters, no external functions — the algebra itself supports "count by X" as a native operation.
+
 ## Three Axioms
 
 | | Axiom | Meaning |
