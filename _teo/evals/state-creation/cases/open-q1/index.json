@@ -1,0 +1,5 @@
+{
+	"description": "St('A', 1) → Open state with q=1 (explicitly quantified)",
+	"input": { "args": ["A", 1] },
+	"expected_output": { "id": "A", "q": 1, "open": true, "inner": [] }
+}

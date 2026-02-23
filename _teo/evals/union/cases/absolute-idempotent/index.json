@@ -1,0 +1,5 @@
+{
+	"description": "A ∪ A = A (absolute idempotence)",
+	"input": { "a": {"id": "A"}, "b": {"id": "A"} },
+	"expected_output": [{"id": "A", "q": 1, "open": false, "inner": []}]
+}

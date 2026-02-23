@@ -1,0 +1,5 @@
+{
+	"description": "2(A) - 5(A) = -3(A) (debt: produces negative quantifier)",
+	"input": { "a": {"id": "A", "q": 2}, "b": {"id": "A", "q": 5} },
+	"expected_output": [{"id": "A", "q": -3, "open": true, "inner": []}]
+}

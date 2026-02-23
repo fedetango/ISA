@@ -1,0 +1,5 @@
+{
+	"description": "Normalize [2(A), 3(A)] → [5(A)] (open merge SUM)",
+	"input": { "states": [{"id": "A", "q": 2}, {"id": "A", "q": 3}] },
+	"expected_output": [{"id": "A", "q": 5, "open": true, "inner": []}]
+}

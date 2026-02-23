@@ -1,0 +1,10 @@
+{
+	"title": "Subset — ⊆ (containment check)",
+	"eval": "subset",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "flat-subset" },
+		{ "caseKey": "nested-subset" },
+		{ "caseKey": "not-subset" }
+	]
+}

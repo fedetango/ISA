@@ -1,0 +1,5 @@
+{
+	"description": "5(A) - 2(A) = 3(A) (same id, subtract quantifiers)",
+	"input": { "a": {"id": "A", "q": 5}, "b": {"id": "A", "q": 2} },
+	"expected_output": [{"id": "A", "q": 3, "open": true, "inner": []}]
+}

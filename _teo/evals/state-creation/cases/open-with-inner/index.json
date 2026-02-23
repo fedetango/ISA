@@ -1,0 +1,5 @@
+{
+	"description": "St('A', 2, [St('B')]) → Open with inner: 2(A){B}",
+	"input": { "args": ["A", 2, [{"_st": true, "id": "B"}]] },
+	"expected_output": { "id": "A", "q": 2, "open": true, "inner": [{"id": "B", "q": 1, "open": false, "inner": []}] }
+}

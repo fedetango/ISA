@@ -1,0 +1,10 @@
+{
+	"title": "Contains — ∋ (membership check)",
+	"eval": "contains",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "positive-found" },
+		{ "caseKey": "positive-absent" },
+		{ "caseKey": "negative-debt" }
+	]
+}

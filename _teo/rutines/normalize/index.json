@@ -1,0 +1,12 @@
+{
+	"title": "Normalize — dedup, open merge, contagion",
+	"eval": "normalize",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "absolute-dedup" },
+		{ "caseKey": "open-merge" },
+		{ "caseKey": "contagion-mixed" },
+		{ "caseKey": "zero-filter" },
+		{ "caseKey": "multi-group" }
+	]
+}

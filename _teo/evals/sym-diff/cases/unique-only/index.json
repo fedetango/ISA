@@ -1,0 +1,11 @@
+{
+	"description": "{A, B} △ {B, C} = {A, C} (keep unique only)",
+	"input": {
+		"a": {"id": null, "inner": [{"id": "A"}, {"id": "B"}]},
+		"b": {"id": null, "inner": [{"id": "B"}, {"id": "C"}]}
+	},
+	"expected_output": [
+		{"id": "A", "q": 1, "open": false, "inner": []},
+		{"id": "C", "q": 1, "open": false, "inner": []}
+	]
+}

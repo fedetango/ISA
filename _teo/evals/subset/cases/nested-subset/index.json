@@ -1,0 +1,8 @@
+{
+	"description": "A{B} ⊆ A{B, C} → true (nested subset)",
+	"input": {
+		"a": {"id": "A", "inner": [{"id": "B"}]},
+		"b": {"id": "A", "inner": [{"id": "B"}, {"id": "C"}]}
+	},
+	"expected_output": true
+}

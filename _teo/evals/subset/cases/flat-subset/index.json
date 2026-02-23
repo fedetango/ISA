@@ -1,0 +1,8 @@
+{
+	"description": "{A} ⊆ {A, B} → true (flat subset)",
+	"input": {
+		"a": {"id": null, "inner": [{"id": "A"}]},
+		"b": {"id": null, "inner": [{"id": "A"}, {"id": "B"}]}
+	},
+	"expected_output": true
+}

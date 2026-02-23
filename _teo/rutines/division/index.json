@@ -1,0 +1,10 @@
+{
+	"title": "Division — / (quotient, composite distribution)",
+	"eval": "division",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "same-id" },
+		{ "caseKey": "different-id-composite" },
+		{ "caseKey": "zero-division" }
+	]
+}

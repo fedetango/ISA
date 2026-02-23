@@ -1,0 +1,10 @@
+{
+	"title": "Sum — + (arithmetic addition)",
+	"eval": "sum",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "same-id" },
+		{ "caseKey": "different-id" },
+		{ "caseKey": "with-inner" }
+	]
+}

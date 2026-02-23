@@ -1,0 +1,8 @@
+{
+	"description": "A{-2(X)} ∋ -X → true (debt record present)",
+	"input": {
+		"a": {"id": "A", "inner": [{"id": "X", "q": -2}]},
+		"target": {"id": "X", "q": -1}
+	},
+	"expected_output": true
+}

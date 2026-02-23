@@ -1,0 +1,12 @@
+{
+	"title": "Difference — -- (subtract, floor at {}, contagion)",
+	"eval": "difference",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "remove-member" },
+		{ "caseKey": "floor-at-empty" },
+		{ "caseKey": "quantifier-subtract" },
+		{ "caseKey": "contagion-subtract" },
+		{ "caseKey": "inner-difference" }
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"description": "{A, B} ∩ {B, C} = {B} (only shared)",
+	"input": {
+		"a": {"id": null, "inner": [{"id": "A"}, {"id": "B"}]},
+		"b": {"id": null, "inner": [{"id": "B"}, {"id": "C"}]}
+	},
+	"expected_output": [{"id": "B", "q": 1, "open": false, "inner": []}]
+}

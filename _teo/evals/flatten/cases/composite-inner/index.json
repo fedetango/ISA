@@ -1,0 +1,8 @@
+{
+	"description": "flatten(null{A, B}) → [A, B] (composite has no identity to extract)",
+	"input": { "state": {"id": null, "inner": [{"id": "A"}, {"id": "B"}]} },
+	"expected_output": [
+		{"id": "A", "q": 1, "open": false, "inner": []},
+		{"id": "B", "q": 1, "open": false, "inner": []}
+	]
+}

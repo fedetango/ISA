@@ -1,0 +1,5 @@
+{
+	"description": "6(A) / 0(A) → error (division by zero quantifier)",
+	"input": { "a": {"id": "A", "q": 6}, "b": {"id": "A", "q": 0} },
+	"expected_output": {"error": "Division by zero quantifier"}
+}

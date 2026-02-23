@@ -1,0 +1,8 @@
+{
+	"description": "A - B = {1(A), -1(B)} (different ids, keeps a, negates b)",
+	"input": { "a": {"id": "A"}, "b": {"id": "B"} },
+	"expected_output": [
+		{"id": "A", "q": 1, "open": true, "inner": []},
+		{"id": "B", "q": -1, "open": true, "inner": []}
+	]
+}

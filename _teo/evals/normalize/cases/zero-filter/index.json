@@ -1,0 +1,5 @@
+{
+	"description": "Normalize [2(A), -2(A)] → [] (SUM=0 → D4 filter)",
+	"input": { "states": [{"id": "A", "q": 2}, {"id": "A", "q": -2}] },
+	"expected_output": []
+}

@@ -1,0 +1,12 @@
+{
+	"description": "{A, B} ∪ {B, C} = {A, B, C} (different ids merge, dedup B)",
+	"input": {
+		"a": {"id": null, "inner": [{"id": "A"}, {"id": "B"}]},
+		"b": {"id": null, "inner": [{"id": "B"}, {"id": "C"}]}
+	},
+	"expected_output": [
+		{"id": "A", "q": 1, "open": false, "inner": []},
+		{"id": "B", "q": 1, "open": false, "inner": []},
+		{"id": "C", "q": 1, "open": false, "inner": []}
+	]
+}

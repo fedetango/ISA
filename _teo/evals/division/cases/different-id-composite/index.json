@@ -1,0 +1,5 @@
+{
+	"description": "12(X) / 4(Y) = 4({3(X), 1(Y)}) (composite distribution)",
+	"input": { "a": {"id": "X", "q": 12}, "b": {"id": "Y", "q": 4} },
+	"expected_output": [{"id": null, "q": 4, "open": true, "inner": [{"id": "X", "q": 3, "open": true, "inner": []}, {"id": "Y", "q": 1, "open": true, "inner": []}]}]
+}

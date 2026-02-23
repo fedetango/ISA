@@ -1,0 +1,11 @@
+{
+	"title": "Symmetric Difference — △ (absolute diff, unique only)",
+	"eval": "sym-diff",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "unique-only" },
+		{ "caseKey": "quantifier-abs-diff" },
+		{ "caseKey": "absolute-cancel" },
+		{ "caseKey": "inner-sym-diff" }
+	]
+}

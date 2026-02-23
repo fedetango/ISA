@@ -1,0 +1,5 @@
+{
+	"description": "2(A) * 3(A) = 2(A){6(A)} (generative, same id)",
+	"input": { "a": {"id": "A", "q": 2}, "b": {"id": "A", "q": 3} },
+	"expected_output": [{"id": "A", "q": 2, "open": true, "inner": [{"id": "A", "q": 6, "open": true, "inner": []}]}]
+}

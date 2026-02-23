@@ -1,0 +1,5 @@
+{
+	"description": "Normalize [A, A] → [A] (absolute dedup)",
+	"input": { "states": [{"id": "A"}, {"id": "A"}] },
+	"expected_output": [{"id": "A", "q": 1, "open": false, "inner": []}]
+}

@@ -1,0 +1,5 @@
+{
+	"description": "5(A) △ 3(A) = 2(A) (|5-3| = 2 T17)",
+	"input": { "a": {"id": "A", "q": 5}, "b": {"id": "A", "q": 3} },
+	"expected_output": [{"id": "A", "q": 2, "open": true, "inner": []}]
+}

@@ -1,0 +1,10 @@
+{
+	"title": "Multiply — * (generative product)",
+	"eval": "multiply",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "same-id" },
+		{ "caseKey": "different-id" },
+		{ "caseKey": "collapse-check" }
+	]
+}

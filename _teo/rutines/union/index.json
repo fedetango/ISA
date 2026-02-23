@@ -1,0 +1,13 @@
+{
+	"title": "Union — ∪ (State Collapse, contagion, inner merge)",
+	"eval": "union",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "absolute-idempotent" },
+		{ "caseKey": "state-collapse-sum" },
+		{ "caseKey": "different-ids" },
+		{ "caseKey": "mixed-abs-open-contagion" },
+		{ "caseKey": "inner-merge" },
+		{ "caseKey": "negative-quantifiers" }
+	]
+}

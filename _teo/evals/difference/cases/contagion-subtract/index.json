@@ -1,0 +1,11 @@
+{
+	"description": "{3(A), B} -- {A} = {2(A), B} (contagion: 3-1=2)",
+	"input": {
+		"a": {"id": null, "inner": [{"id": "A", "q": 3}, {"id": "B"}]},
+		"b": {"id": null, "inner": [{"id": "A"}]}
+	},
+	"expected_output": [
+		{"id": "A", "q": 2, "open": true, "inner": []},
+		{"id": "B", "q": 1, "open": false, "inner": []}
+	]
+}

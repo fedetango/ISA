@@ -1,0 +1,5 @@
+{
+	"description": "A * A = 1(A){1(A)} (absolute forced open, 1*1=1 product)",
+	"input": { "a": {"id": "A"}, "b": {"id": "A"} },
+	"expected_output": [{"id": "A", "q": 1, "open": true, "inner": [{"id": "A", "q": 1, "open": true, "inner": []}]}]
+}

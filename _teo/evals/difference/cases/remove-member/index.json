@@ -1,0 +1,11 @@
+{
+	"description": "{A, B, C} -- {B} = {A, C} (remove member)",
+	"input": {
+		"a": {"id": null, "inner": [{"id": "A"}, {"id": "B"}, {"id": "C"}]},
+		"b": {"id": null, "inner": [{"id": "B"}]}
+	},
+	"expected_output": [
+		{"id": "A", "q": 1, "open": false, "inner": []},
+		{"id": "C", "q": 1, "open": false, "inner": []}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"description": "Normalize [A, B, 1(A), C] → [2(A), B, C] (multi-group with contagion)",
+	"input": { "states": [{"id": "A"}, {"id": "B"}, {"id": "A", "q": 1}, {"id": "C"}] },
+	"expected_output": [{"id": "A", "q": 2, "open": true, "inner": []}, {"id": "B", "q": 1, "open": false, "inner": []}, {"id": "C", "q": 1, "open": false, "inner": []}]
+}

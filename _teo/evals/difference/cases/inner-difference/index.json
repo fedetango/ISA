@@ -1,0 +1,8 @@
+{
+	"description": "A{B, C} -- A{C} = A{B} (inner difference, keep absolute)",
+	"input": {
+		"a": {"id": "A", "inner": [{"id": "B"}, {"id": "C"}]},
+		"b": {"id": "A", "inner": [{"id": "C"}]}
+	},
+	"expected_output": [{"id": "A", "q": 1, "open": false, "inner": [{"id": "B", "q": 1, "open": false, "inner": []}]}]
+}

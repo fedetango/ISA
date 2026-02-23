@@ -1,0 +1,5 @@
+{
+	"description": "-2(A) ∪ 3(A) = 1(A) (negative + positive SUM)",
+	"input": { "a": {"id": "A", "q": -2}, "b": {"id": "A", "q": 3} },
+	"expected_output": [{"id": "A", "q": 1, "open": true, "inner": []}]
+}

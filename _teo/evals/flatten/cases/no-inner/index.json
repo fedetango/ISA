@@ -1,0 +1,5 @@
+{
+	"description": "flatten(A) → [A] (no inner, identity only)",
+	"input": { "state": {"id": "A"} },
+	"expected_output": [{"id": "A", "q": 1, "open": false, "inner": []}]
+}

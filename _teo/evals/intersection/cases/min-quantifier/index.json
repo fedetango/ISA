@@ -1,0 +1,5 @@
+{
+	"description": "3(A) ∩ 1(A) = 1(A) (MIN quantifier T12)",
+	"input": { "a": {"id": "A", "q": 3}, "b": {"id": "A", "q": 1} },
+	"expected_output": [{"id": "A", "q": 1, "open": true, "inner": []}]
+}

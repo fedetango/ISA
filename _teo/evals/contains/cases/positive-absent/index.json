@@ -1,0 +1,8 @@
+{
+	"description": "A{-2(X)} ∋ X → false (no positive instances, only debt)",
+	"input": {
+		"a": {"id": "A", "inner": [{"id": "X", "q": -2}]},
+		"target": {"id": "X"}
+	},
+	"expected_output": false
+}

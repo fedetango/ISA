@@ -1,0 +1,5 @@
+{
+	"description": "A △ A = {} (absolute cancel)",
+	"input": { "a": {"id": "A"}, "b": {"id": "A"} },
+	"expected_output": []
+}

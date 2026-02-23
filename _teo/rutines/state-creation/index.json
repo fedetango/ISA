@@ -1,0 +1,13 @@
+{
+	"title": "State Creation — St() factory",
+	"eval": "state-creation",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "absolute" },
+		{ "caseKey": "open" },
+		{ "caseKey": "open-q1" },
+		{ "caseKey": "absolute-with-inner" },
+		{ "caseKey": "open-with-inner" },
+		{ "caseKey": "composite" }
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"description": "{A, B} ⊆ {A} → false (B not in right side)",
+	"input": {
+		"a": {"id": null, "inner": [{"id": "A"}, {"id": "B"}]},
+		"b": {"id": null, "inner": [{"id": "A"}]}
+	},
+	"expected_output": false
+}

@@ -1,0 +1,9 @@
+{
+	"description": "flatten(A{B, C}) → [A, B, C] (Identidad Gramatical D1)",
+	"input": { "state": {"id": "A", "inner": [{"id": "B"}, {"id": "C"}]} },
+	"expected_output": [
+		{"id": "A", "q": 1, "open": false, "inner": []},
+		{"id": "B", "q": 1, "open": false, "inner": []},
+		{"id": "C", "q": 1, "open": false, "inner": []}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"title": "Rest — - (arithmetic subtraction, debt)",
+	"eval": "rest",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "same-id" },
+		{ "caseKey": "debt-negative" },
+		{ "caseKey": "different-id" }
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"description": "Normalize [A, 1(A)] → [2(A)] (contagion T7b: abs=1 + open=1 = 2)",
+	"input": { "states": [{"id": "A"}, {"id": "A", "q": 1}] },
+	"expected_output": [{"id": "A", "q": 2, "open": true, "inner": []}]
+}

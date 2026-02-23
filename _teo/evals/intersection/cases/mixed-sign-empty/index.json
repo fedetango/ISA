@@ -1,0 +1,5 @@
+{
+	"description": "3(A) ∩ -2(A) = {} (mixed signs → empty T12)",
+	"input": { "a": {"id": "A", "q": 3}, "b": {"id": "A", "q": -2} },
+	"expected_output": []
+}

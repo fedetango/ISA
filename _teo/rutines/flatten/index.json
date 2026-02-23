@@ -1,0 +1,10 @@
+{
+	"title": "Flatten — Identidad Gramatical (D1)",
+	"eval": "flatten",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "no-inner" },
+		{ "caseKey": "with-inner" },
+		{ "caseKey": "composite-inner" }
+	]
+}

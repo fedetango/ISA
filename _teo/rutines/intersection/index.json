@@ -1,0 +1,12 @@
+{
+	"title": "Intersection — ∩ (MIN, mixed signs, inner)",
+	"eval": "intersection",
+	"onFail": "CONTINUE",
+	"cases": [
+		{ "caseKey": "shared-only" },
+		{ "caseKey": "min-quantifier" },
+		{ "caseKey": "mixed-sign-empty" },
+		{ "caseKey": "absolute-intersection" },
+		{ "caseKey": "inner-intersection" }
+	]
+}

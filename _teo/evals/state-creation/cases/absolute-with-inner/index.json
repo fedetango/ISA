@@ -1,0 +1,5 @@
+{
+	"description": "St('A', [St('B')]) → Absolute with inner state",
+	"input": { "args": ["A", [{"_st": true, "id": "B"}]] },
+	"expected_output": { "id": "A", "q": 1, "open": false, "inner": [{"id": "B", "q": 1, "open": false, "inner": []}] }
+}
